@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="modul3contoh2.DashboardController">
+   <left>
+      <AnchorPane prefHeight="768.0" prefWidth="300.0" style="-fx-background-color: #0548F4;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="55.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/img/logo_white.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="64.0" layoutY="176.0" text="Pustakalokal" textFill="#ffee00">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button layoutX="57.0" layoutY="240.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="187.0" text="Dashboard">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="57.0" layoutY="308.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="187.0" text="Peminjaman">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="57.0" layoutY="377.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="187.0" text="Pengembalian">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="57.0" layoutY="443.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="187.0" text="Perpanjangan">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="57.0" layoutY="512.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="187.0" text="Pengecekan">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="768.0" prefWidth="724.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="buttonLogout" layoutX="594.0" layoutY="34.0" mnemonicParsing="false" onAction="#handleButtonLogoutAction" prefHeight="33.0" prefWidth="98.0" style="-fx-background-color: #0548F4;" text="Log Out" textFill="WHITE" />
+            <Label layoutX="44.0" layoutY="37.0" text="Dashboard">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="44.0" layoutY="90.0" text="Selamat Datang Atmin!" textFill="#0548f4">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
